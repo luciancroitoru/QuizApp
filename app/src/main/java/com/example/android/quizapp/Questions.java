@@ -468,13 +468,13 @@ public class Questions extends AppCompatActivity {
         questionsScrollView.smoothScrollTo(0, 0);
     }
 
-    // takes the user back to the main screen/ MainActivity and resets all scores
+    // takes the user back to the main screen/ MainActivity and resets all scores.
     public void resetQuiz(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 
-    // hides keyboard when user clicks outside of EditText
+    // hides keyboard when user clicks outside of EditText.
     @Override
     public boolean dispatchTouchEvent(MotionEvent ev) {
         View v = getCurrentFocus();
