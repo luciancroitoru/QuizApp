@@ -27,6 +27,7 @@
             android:orientation="horizontal">
 
             <RadioButton
+                android:id="@+id/answer_q_1_1"
                 style="@style/radio_button_horizontal"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -42,6 +43,7 @@
                 android:text="@string/answer_1_2" />
 
             <RadioButton
+                android:id="@+id/answer_q_1_3"
                 style="@style/radio_button_horizontal"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -49,6 +51,7 @@
                 android:text="@string/answer_1_3" />
 
             <RadioButton
+                android:id="@+id/answer_q_1_4"
                 style="@style/radio_button_horizontal"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -69,6 +72,7 @@
             android:orientation="horizontal">
 
             <RadioButton
+                android:id="@+id/answer_q_2_1"
                 style="@style/radio_button_horizontal"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -76,6 +80,7 @@
                 android:text="@string/answer_2_1" />
 
             <RadioButton
+                android:id="@+id/answer_q_2_2"
                 style="@style/radio_button_horizontal"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -91,6 +96,7 @@
                 android:text="@string/answer_2_3" />
 
             <RadioButton
+                android:id="@+id/answer_q_2_4"
                 style="@style/radio_button_horizontal"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -300,11 +306,11 @@
             android:text="@string/button_questions" />
 
         <Button
-            style="@style/screen_reset"
+            style="@style/go_to_top"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="resetScreen"
-            android:text="@string/reset_screen" />
+            android:onClick="goToTop"
+            android:text="@string/go_to_top" />
 
         <Button
             style="@style/quiz_reset"

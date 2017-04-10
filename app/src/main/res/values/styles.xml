@@ -12,6 +12,15 @@
         <item name="android:textColor">@color/red</item>
     </style>
 
+    //styles for layout elements from activity_main xml
+
+    <style name="image_main">
+        <item name= "android:layout_width">match_parent</item>
+        <item name="android:layout_height">260dp</item>
+        <item name="android:scaleType">fitStart</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
     <style name="title_main">
         <item name="android:paddingTop">280dp</item>
         <item name="android:textSize">24sp</item>
@@ -35,12 +44,13 @@
         <item name="android:padding">8dp</item>
     </style>
 
-    // styles for layout elements from Questions.xml
+    // styles for layout elements from activity_questions.xml
 
     <style name="image_questions">
         <item name= "android:layout_width">match_parent</item>
         <item name="android:layout_height">112dp</item>
         <item name="android:scaleType">fitStart</item>
+        <item name="android:layout_gravity">center</item>
     </style>
 
     <style name="questions">
@@ -118,7 +128,7 @@
         <item name="android:background">@color/red</item>
     </style>
 
-    <style name="screen_reset">
+    <style name="go_to_top">
         <item name="android:layout_marginTop">20dp</item>
         <item name="android:layout_marginBottom">5dp</item>
         <item name="android:padding">16dp</item>
